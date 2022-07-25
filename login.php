@@ -40,9 +40,9 @@ if (empty($_POST['email']) && empty($_POST['password'])) {
         $data['success'] = false;
         $data['message'] = "Estas credenciales no coinciden con nuestros registros.";
         if ($usuario['error'] == "email"){
-            $data['error'] = "email";
+            $data['error'] = "Email NO registrado";
         }else{
-            $data['error'] = "password";
+            $data['error'] = "Contraseña Incorrecta";
         }
     }
 
