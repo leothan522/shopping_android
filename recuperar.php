@@ -42,7 +42,7 @@ if (empty($_POST['email'])) {
 
     }else{
         $data['success'] = false;
-        $data['message'] = "El Email no coincide con nuestros registros.";
+        $data['message'] = "El correo electronico no coincide con nuestros registros.";
         echo(json_encode($data));
     }
 }
