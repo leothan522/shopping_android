@@ -73,10 +73,10 @@ $error = null;
 $password = null;
 $data=array();
 
-$data['name'] = false;
-$data['email'] = false;
-$data['telefono'] = false;
-$data['error'] = false;
+$data['name'] = null;
+$data['email'] = null;
+$data['telefono'] = null;
+$data['error'] = null;
 
 
 if (!empty($_POST['name'])){
