@@ -129,12 +129,12 @@ if ($name || $email || $password || $telefono){
 
         case "email":
             $data['success'] = false;
-            $data['error'] = $error;
+            $data['error'] = "Email NO disponible";
             $data['message'] = "El correo electronico ya ha sido registrado anteriormente.";
         break;
         case "password":
             $data['success'] = false;
-            $data['error'] = $error;
+            $data['error'] = "Contraseña Incorrecta";
             $data['message'] = "Password Incorrecto.";
         break;
 
