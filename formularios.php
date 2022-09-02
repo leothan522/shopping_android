@@ -17,7 +17,7 @@
         <input type="submit" value="enviar">
     </form>
 </p>
-<p>Login
+<p>Login ...
     <form action="login.php" method="post">
         <input type="text" name="email" placeholder="Email">
         <input type="text" name="password" placeholder="Password">
